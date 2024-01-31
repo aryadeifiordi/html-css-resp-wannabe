@@ -140,4 +140,36 @@
   
 }
 
+/* SMARTPHONE MEDIA */
+@media screen and (max-width:480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        padding: 10px;
+        width: auto;
+        color: yellowgreen;
+    }
+
+    .why-us .col-left {
+        width: auto;
+
+    }
+
+    .why-us .col-right {
+        width: auto;
+        padding: 50px;
+    }
+    
+
+}
+
+
 
